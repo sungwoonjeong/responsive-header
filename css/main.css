@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   background-color: #fff;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 *, *::before, *::after {
@@ -24,4 +24,7 @@ body {
 
 header {
   margin: 0;
+  background-color: #18294f;
+  padding: .3em 0 .5em;
+  color: #fff;
 }
