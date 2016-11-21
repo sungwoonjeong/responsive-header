@@ -28,3 +28,8 @@ header {
   padding: .3em 0 .5em;
   color: #fff;
 }
+
+header h1 {
+  text-align: center;
+  margin: .9rem;
+}
