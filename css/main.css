@@ -69,3 +69,13 @@ nav a:hover {
   }
 
 }
+
+@media only screen and (min-width: 38em) {
+
+  nav li {
+    float: left;
+    width: 25%;
+    background-color: #18294f;
+  }
+
+}
