@@ -104,3 +104,27 @@ nav a:hover {
   }
 
 }
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
+  header {
+    overflow: hidden;
+  }
+
+  h1 {
+    display: inline;
+    text-align: left;
+  }
+
+  nav li {
+    float: right;
+    background-color: #18294f;
+    width: 10%;
+  }
+
+}
