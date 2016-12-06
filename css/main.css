@@ -42,8 +42,13 @@ nav ul {
   margin: 0;
 }
 
+nav li {
+
+  width: 100%;
+}
+
 nav a {
-  display: inline-block;
+    display: inline-block;
   color: #6c8fe0;
   white-space: nowrap;
   text-decoration: none;
@@ -54,4 +59,14 @@ nav a {
 nav a:hover {
   background-color: #6c8fe0;
   color: #fff;
+}
+
+@media only screen and (min-width: 25em) {
+
+  nav li {
+    float: left;
+    width: 50%;
+    background-color: #18294f;
+  }
+
 }
